@@ -16,12 +16,6 @@ body {
 .more-inf {
     font-family: Lado, cursive;
 }
-
-@media (max-width: 768px) {
-    .matrix-wrapper {
-        text-align: center;
-    }
-}
 .main-centered {
     display: block;
     width: 500px;
@@ -148,4 +142,10 @@ ul li.editMode input[type="text"] {
 
 ul li.editMode label {
     display: none;
+}
+
+@media (max-width: 768px) {
+    .matrix-wrapper {
+        text-align: center;
+    }
 }
